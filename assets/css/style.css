@@ -9,6 +9,7 @@ nav{
 	justify-content: space-around;
 	background-color: black;
 	color: white;
+	padding: 5px;
 }
 nav .right{
 	display: flex;
@@ -40,7 +41,7 @@ nav .left{
 
 
 
-.right button{
+#bot{
 	width: 100px;
 	height: 36px;
 	background-color: white;
@@ -50,7 +51,7 @@ nav .left{
 	border-radius: 26px;
 	margin-top: 12px;
 }
-.right button:hover{
+.right #bot:hover{
 	background-color: transparent;
 	color: white;
 	border: 2px solid white;
